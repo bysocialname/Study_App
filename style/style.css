@@ -1,0 +1,23 @@
+@media screen and (max-width: 450px) {
+
+    header {
+        text-align: center;
+    }
+    body {
+        margin: 15px;
+        font-family: cursive;
+    }
+    section[id="learn"] {
+        text-align: center;
+    }
+    article {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    button {
+        margin-left: 15%;
+    }
+}
