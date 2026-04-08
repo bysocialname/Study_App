@@ -1,0 +1,56 @@
+@media screen and (min-width: 1024px) {
+
+    body {
+        font-family: 'Gill Sans MT', sans-serif;
+        font-size: 16px;
+    }
+    button {
+        margin-left: 13%;
+    }
+
+    button:hover {
+        transition: 0.7s;
+        transform: scale(1.03);
+    }
+
+    .overlay {
+        position: absolute;
+        top: 6em;
+        left: 6%;
+        right: 0;
+        width: 200%;
+        height: 200%;
+        background: rgba(0,0,0,0.3);
+
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlay-centent {
+        max-width: 450px;
+        width: 90%;
+    }
+
+    input:checked ~ .overlay {
+        display: inline-block;
+        z-index: 100;
+        overflow: auto;
+    }
+
+    article:hover {
+        animation: move 0.7s ease-in-out alternate forwards;
+    }
+    @keyframes move {
+        from { transform: translateY(0);}
+        to { transform: translateY(-10px);}
+    }
+
+    article {
+        animation: way 0.7s ease-in-out alternate forwards;
+    }
+    @keyframes way {
+        from { transform: translateY(-10px);}
+        to { transform: translateY(0);}
+    }
+}
