@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://study-uadb.vercel.app/sitemap.xml

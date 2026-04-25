@@ -1,41 +1,227 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 1023px) {
+/* Si vous travaillez sur le fichier css,
+appliquer les bonnes pratiques
+qui est de mettre des commentaires*/
 
-    body {
-        font-family: 'Gill Sans MT', sans-serif;
-        font-size: 14px;
+    /* Bouton qui agrandi au survol*/
+    button:hover {
+        transition: 0.7s;
+        transform: scale(1.03);
     }
-    button {
-        margin-left: 13%;
+    /* Prerequis pour le remplissage complet du page*/
+    *{
+        margin: 0;
+        padding: 0;
     }
+    /* Zone qui regroupe le nav et le header
+    a une taille relative a la page afficher par le navigateur*/
+    .wrapper {
+        height: 200vh; /* height: 185vh*/
+    }
+    /* Recadrement de la zone de la barre de navigation*/
+    .top-bar {
+        width: 80%;
+        height: 2%; /*height : 10%*/
+        margin: 1% auto;
+    }
+    /* Redimensionnement de l'emplacement du Logo*/
+    .logo {
+        margin-top: 2%;
+        margin-left: 25%;
+        width: 50%;
+    }
+    /* Redimensionnement de l'image dans la zone destiner pour le logo*/
+    .logo img {
+        width: 150%;
+        margin: 1% auto;
+        cursor: pointer;
+    }
+    /* Delimitation du zone qui imite la header*/
+    .hero {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    /* Comme le header est divise en deux partie :*/
+    /* Redimensionnement de la partie texte du header*/
+    .hero-text {
+        width: 50%;
+        height: 100%; /* height: 120%*/
+    }
+    .hero-text h1 {
+        margin: 5% 0 1% 10%;
+        line-height: 2rem;
+    }
+    .hero-text h2 {
+        margin: 5% 0 1% 10%;
+        line-height: 2rem;
+    }
+    /* Redimensionnement de la partie image du header*/
+    .hero-banner {
+        width: 50%;
+        height: 100%;
+    }
+    /* Redimensionnement de l'image du zone banner*/
+    .hero-banner img {
+        width: 100%;
+    }
+    /* Animation qui fait bouger les articles au survol*/
+    article:hover {
+        animation: move 0.7s ease-in-out alternate forwards;
+    }
+    @keyframes move {
+        from { transform: translateY(0);}
+        to { transform: translateY(-10px);}
+    }
+    /* Alternative qui imite le retour des articles a leur position initial*/
+    article {
+        animation: way 0.7s ease-in-out alternate forwards;
+    }
+    @keyframes way {
+        from { transform: translateY(-10px);}
+        to { transform: translateY(0);}
+    }
+}
+@media screen and (max-width: 425px) {
+
+/* Si vous travaillez sur le fichier css,
+appliquer les bonnes pratiques
+qui est de mettre des commentaires*/
+
+    /* Bouton qui agrandi au survol*/
+    button:hover {
+        transition: 0.7s;
+        transform: scale(1.03);
+    }
+    /* Prerequis pour le remplissage complet du page*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* Zone qui regroupe le nav et le header
+    a une taille relative a la page afficher par le navigateur*/
+    .wrapper {
+        height: 185vh;
+    }
+    /* Recadrement de la zone de la barre de navigation*/
+    .top-bar {
+        width: 80%;
+        height: 2%; /*height : 10%*/
+        margin: 1% auto;
+    }
+    /* Redimensionnement de l'emplacement du Logo*/
+    .logo {
+        margin-top: 2%;
+        margin-left: 25%;
+        width: 50%;
+    }
+    /* Redimensionnement de l'image dans la zone destiner pour le logo*/
+    .logo img {
+        width: 150%;
+        margin: 1% auto;
+        cursor: pointer;
+    }
+    /* Delimitation du zone qui imite la header*/
+    .hero {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    /* Comme le header est divise en deux partie :*/
+    /* Redimensionnement de la partie texte du header*/
+    .hero-text {
+        width: 50%;
+        height: 120%; /* height: 100%*/
+    }
+    .hero-text h1 {
+        margin: 5% 0 1% 10%;
+        line-height: 2rem;
+    }
+    .hero-text h2 {
+        margin: 5% 0 1% 10%;
+        line-height: 2rem;
+    }
+    /* Redimensionnement de la partie image du header*/
+    .hero-banner {
+        width: 50%;
+        height: 100%;
+    }
+    /* Redimensionnement de l'image du zone banner*/
+    .hero-banner img {
+        width: 100%;
+    }
+    /* Animation qui fait bouger les articles au survol*/
+    article:hover {
+        animation: move 0.7s ease-in-out alternate forwards;
+    }
+    @keyframes move {
+        from { transform: translateY(0);}
+        to { transform: translateY(-10px);}
+    }
+    /* Alternative qui imite le retour des articles a leur position initial*/
+    article {
+        animation: way 0.7s ease-in-out alternate forwards;
+    }
+    @keyframes way {
+        from { transform: translateY(-10px);}
+        to { transform: translateY(0);}
+    }
+
+}
+@media screen and (min-width: 1024px) {
 
     button:hover {
         transition: 0.7s;
         transform: scale(1.03);
     }
-
-    .overlay {
-        position: absolute;
-        top: 6em;
-        left: 6%;
-        right: 0;
-        width: 200%;
-        height: 200%;
-        background: rgba(0,0,0,0.3);
-
-        display: none;
-        justify-content: center;
-        align-items: center;
+    *{
+        margin: 0;
+        padding: 0;
     }
-
-    .overlay-centent {
-        max-width: 450px;
-        width: 90%;
+    .wrapper {
+        height: 300vh; /* height: 100vh*/
     }
-
-    input:checked ~ .overlay {
-        display: inline-block;
-        z-index: 100;
-        overflow: auto;
+    .top-bar {
+        width: 80%; /*width: 80% */
+        height: 10%;
+        margin: 2% auto;
+    }
+    .logo {
+        margin-left: 39%;
+        width: 40%; /* width: 20% */
+        float: left;
+    }
+    .logo img {
+        width: 80%; /* width: 150px*/
+        margin: 1% auto;
+        cursor: pointer;
+    }
+    .hero {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .hero-text {
+        width: 30%; /* width: 50% */
+        height: 100%;
+    }
+    .hero-text h1 {
+        margin: 5% 0 1% 10%;
+        line-height: 2rem;
+    }
+    .hero-text h2 {
+        margin: 5% 0 1% 10%;
+        line-height: 2rem;
+    }
+    .hero-banner {
+        width: 50%;
+        height: 100%;
+    }
+    .hero-banner img {
+        width: 100%;
     }
 
     article:hover {
@@ -45,7 +231,6 @@
         from { transform: translateY(0);}
         to { transform: translateY(-10px);}
     }
-
     article {
         animation: way 0.7s ease-in-out alternate forwards;
     }
