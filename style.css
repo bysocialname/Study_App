@@ -1,241 +1,512 @@
-@media screen and (min-width: 426px) and (max-width: 1023px) {
-/* Si vous travaillez sur le fichier css,
-appliquer les bonnes pratiques
-qui est de mettre des commentaires*/
+:root{
 
-    /* Bouton qui agrandi au survol*/
-    button:hover {
-        transition: 0.7s;
-        transform: scale(1.03);
-    }
-    /* Prerequis pour le remplissage complet du page*/
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    /* Zone qui regroupe le nav et le header
-    a une taille relative a la page afficher par le navigateur*/
-    .wrapper {
-        height: 200vh; /* height: 185vh*/
-    }
-    /* Recadrement de la zone de la barre de navigation*/
-    .top-bar {
-        width: 80%;
-        height: 2%; /*height : 10%*/
-        margin: 1% auto;
-    }
-    /* Redimensionnement de l'emplacement du Logo*/
-    .logo {
-        margin-top: 2%;
-        margin-left: 25%;
-        width: 50%;
-    }
-    /* Redimensionnement de l'image dans la zone destiner pour le logo*/
-    .logo img {
-        width: 150%;
-        margin: 1% auto;
-        cursor: pointer;
-    }
-    /* Delimitation du zone qui imite la header*/
-    .hero {
-        width: 80%;
-        height: 80%;
-        margin: 0 auto;
-        position: relative;
-    }
-    /* Comme le header est divise en deux partie :*/
-    /* Redimensionnement de la partie texte du header*/
-    .hero-text {
-        width: 50%;
-        height: 100%; /* height: 120%*/
-    }
-    .hero-text h1 {
-        margin: 5% 0 1% 10%;
-        line-height: 2rem;
-    }
-    .hero-text h2 {
-        margin: 5% 0 1% 10%;
-        line-height: 2rem;
-    }
-    /* Redimensionnement de la partie image du header*/
-    .hero-banner {
-        width: 50%;
-        height: 100%;
-    }
-    /* Redimensionnement de l'image du zone banner*/
-    .hero-banner img {
-        width: 100%;
-    }
-    /* Animation qui fait bouger les articles au survol*/
-    article:hover {
-        animation: move 0.7s ease-in-out alternate forwards;
-    }
-    @keyframes move {
-        from { transform: translateY(0);}
-        to { transform: translateY(-10px);}
-    }
-    /* Alternative qui imite le retour des articles a leur position initial*/
-    article {
-        animation: way 0.7s ease-in-out alternate forwards;
-    }
-    @keyframes way {
-        from { transform: translateY(-10px);}
-        to { transform: translateY(0);}
-    }
-}
-@media screen and (max-width: 425px) {
+--primary:rgba(72,95,199,1);
 
-/* Si vous travaillez sur le fichier css,
-appliquer les bonnes pratiques
-qui est de mettre des commentaires*/
+--warning:rgba(255,187,0,1);
 
-    /* Bouton qui agrandi au survol*/
-    button:hover {
-        transition: 0.7s;
-        transform: scale(1.03);
-    }
-    /* Prerequis pour le remplissage complet du page*/
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    /* Zone qui regroupe le nav et le header
-    a une taille relative a la page afficher par le navigateur*/
-    .wrapper {
-        height: 185vh;
-    }
-    /* Recadrement de la zone de la barre de navigation*/
-    .top-bar {
-        width: 80%;
-        height: 2%; /*height : 10%*/
-        margin: 1% auto;
-    }
-    /* Redimensionnement de l'emplacement du Logo*/
-    .logo {
-        margin-top: 2%;
-        margin-left: 25%;
-        width: 50%;
-    }
-    /* Redimensionnement de l'image dans la zone destiner pour le logo*/
-    .logo img {
-        width: 150%;
-        margin: 1% auto;
-        cursor: pointer;
-    }
-    /* Delimitation du zone qui imite la header*/
-    .hero {
-        width: 80%;
-        height: 80%;
-        margin: 0 auto;
-        position: relative;
-    }
-    /* Comme le header est divise en deux partie :*/
-    /* Redimensionnement de la partie texte du header*/
-    .hero-text {
-        width: 50%;
-        height: 120%; /* height: 100%*/
-    }
-    .hero-text h1 {
-        margin: 5% 0 1% 10%;
-        line-height: 2rem;
-    }
-    .hero-text h2 {
-        margin: 5% 0 1% 10%;
-        line-height: 2rem;
-    }
-    /* Redimensionnement de la partie image du header*/
-    .hero-banner {
-        width: 50%;
-        height: 100%;
-    }
-    /* Redimensionnement de l'image du zone banner*/
-    .hero-banner img {
-        width: 100%;
-    }
-    /* Animation qui fait bouger les articles au survol*/
-    article:hover {
-        animation: move 0.7s ease-in-out alternate forwards;
-    }
-    @keyframes move {
-        from { transform: translateY(0);}
-        to { transform: translateY(-10px);}
-    }
-    /* Alternative qui imite le retour des articles a leur position initial*/
-    article {
-        animation: way 0.7s ease-in-out alternate forwards;
-    }
-    @keyframes way {
-        from { transform: translateY(-10px);}
-        to { transform: translateY(0);}
-    }
+--success:rgba(72,199,142,1);
+
+--danger:rgba(241,70,104,1);
+
+--bg:#f5f6fa;
+--white:white;
+--text:#363636;
+
+--shadow:
+0px 5px 15px rgba(0,0,0,.1);
+
+--radius:12px;
+
+--transition:.3s;
 
 }
-@media screen and (min-width: 1024px) {
 
-    button:hover {
-        transition: 0.7s;
-        transform: scale(1.03);
-    }
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .wrapper {
-        height: 300vh; /* height: 100vh*/
-    }
-    .top-bar {
-        width: 80%; /*width: 80% */
-        height: 10%;
-        margin: 2% auto;
-    }
-    .logo {
-        margin-left: 39%;
-        width: 40%; /* width: 20% */
-        float: left;
-    }
-    .logo img {
-        width: 80%; /* width: 150px*/
-        margin: 1% auto;
-        cursor: pointer;
-    }
-    .hero {
-        width: 80%;
-        height: 80%;
-        margin: 0 auto;
-        position: relative;
-    }
-    .hero-text {
-        width: 30%; /* width: 50% */
-        height: 100%;
-    }
-    .hero-text h1 {
-        margin: 5% 0 1% 10%;
-        line-height: 2rem;
-    }
-    .hero-text h2 {
-        margin: 5% 0 1% 10%;
-        line-height: 2rem;
-    }
-    .hero-banner {
-        width: 50%;
-        height: 100%;
-    }
-    .hero-banner img {
-        width: 100%;
-    }
 
-    article:hover {
-        animation: move 0.7s ease-in-out alternate forwards;
-    }
-    @keyframes move {
-        from { transform: translateY(0);}
-        to { transform: translateY(-10px);}
-    }
-    article {
-        animation: way 0.7s ease-in-out alternate forwards;
-    }
-    @keyframes way {
-        from { transform: translateY(-10px);}
-        to { transform: translateY(0);}
-    }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+
+font-family:Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+
+}
+
+nav{
+    background:var(--white);
+    padding:20px;
+    text-align:center;
+    box-shadow:var(--shadow);
+}
+
+.logo{
+    width:150px;
+    max-width:100%;
+    height:auto;
+}
+
+
+nav h1{
+
+font-size:2.5rem;
+
+}
+
+
+.header{
+
+padding:40px;
+max-width:1000px;
+margin:auto;
+
+}
+
+
+.box{
+
+background:var(--white);
+
+padding:25px;
+
+border-radius:var(--radius);
+
+box-shadow:var(--shadow);
+
+}
+
+
+.section-title{
+
+padding:30px;
+text-align:center;
+
+}
+
+
+.grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(250px,1fr)
+);
+
+gap:20px;
+
+padding:30px;
+
+max-width:1200px;
+margin:auto;
+
+}
+
+
+.card{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+padding:20px;
+
+background:white;
+
+border-radius:12px;
+
+box-shadow:var(--shadow);
+
+transition:var(--transition);
+
+}
+
+
+.card:hover{
+
+transform:
+translateY(-6px);
+
+}
+
+
+.button{
+
+display:inline-block;
+
+padding:12px;
+
+border-radius:8px;
+
+text-align:center;
+
+font-weight:bold;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+}
+
+
+.button:hover{
+
+opacity:.9;
+
+transform:scale(1.03);
+
+}
+
+
+.blue{
+
+background:var(--primary);
+
+}
+
+.yellow{
+
+background:var(--warning);
+color:black;
+
+}
+
+.green{
+
+background:var(--success);
+
+}
+
+.red{
+
+background:var(--danger);
+
+}
+
+
+
+footer{
+
+margin-top:50px;
+padding:30px;
+
+}
+
+
+.footer-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(250px,1fr)
+);
+
+gap:20px;
+
+}
+
+
+.legend{
+
+display:flex;
+flex-direction:column;
+gap:10px;
+
+}
+
+/*=========================
+HEADER HERO
+=========================*/
+
+.wrapper{
+
+width:90%;
+margin:auto;
+
+}
+
+.hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:40px;
+
+min-height:70vh;
+
+}
+
+.hero-text{
+
+flex:1;
+
+animation:leftAnimation 1s ease;
+
+}
+
+.hero-text h1{
+
+font-size:3rem;
+
+margin-bottom:25px;
+
+}
+
+.hero-text p{
+
+line-height:1.8;
+
+font-size:1.1rem;
+
+}
+
+
+.hero-banner{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+animation:rightAnimation 1.5s ease;
+
+}
+
+
+.hero-banner img{
+
+width:100%;
+max-width:450px;
+
+}
+
+
+/*=========================
+ANIMATIONS
+=========================*/
+
+@keyframes leftAnimation{
+
+from{
+
+opacity:0;
+transform:translateX(-50px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateX(0);
+
+}
+
+}
+
+
+@keyframes rightAnimation{
+
+from{
+
+opacity:0;
+transform:translateX(50px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateX(0);
+
+}
+
+}
+
+
+/*=========================
+RESPONSIVE
+=========================*/
+
+@media(max-width:768px){
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+.hero-text h1{
+
+font-size:2rem;
+
+}
+
+.hero-banner img{
+
+max-width:250px;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.header{
+
+padding:20px;
+
+}
+
+nav h1{
+
+font-size:2rem;
+
+}
+
+}
+
+/*==========================
+VIEWER
+==========================*/
+
+#viewerOverlay{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:
+rgba(
+0,
+0,
+0,
+0.65
+);
+
+backdrop-filter:
+blur(8px);
+
+display:none;
+
+justify-content:center;
+align-items:center;
+
+z-index:9999;
+
+}
+
+
+#viewer{
+
+width:80%;
+height:80%;
+
+background:white;
+
+border-radius:20px;
+
+overflow:hidden;
+
+display:flex;
+
+flex-direction:column;
+
+box-shadow:
+0 10px 30px
+rgba(
+0,
+0,
+0,
+0.3
+);
+
+animation:popup .4s;
+
+}
+
+
+#viewerHeader{
+
+padding:20px;
+
+display:flex;
+
+justify-content:space-between;
+
+background:#f3f3f3;
+
+}
+
+
+#viewerContent{
+
+padding:25px;
+
+overflow-y:auto;
+
+height:100%;
+
+white-space:pre-wrap;
+
+font-family:monospace;
+
+line-height:1.7;
+
+}
+
+
+@keyframes popup{
+
+from{
+
+opacity:0;
+
+transform:
+scale(.8);
+
+}
+
+to{
+
+opacity:1;
+
+transform:
+scale(1);
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+#viewer{
+
+width:95%;
+height:90%;
+
+}
+
 }
