@@ -51,6 +51,253 @@
             href="style.css"
             as="style"
             onload="this.rel='stylesheet'">
+
+        <link rel="preload"
+            href="/image/logo-2.webp"
+            as="image">
+
+        <link rel="preload"
+            href="/image/logo-3.webp"
+            as="image">
+
+        <style>
+        :root{
+
+--primary:rgba(72,95,199,1);
+
+--warning:rgba(255,187,0,1);
+
+--success:rgba(72,199,142,1);
+
+--danger:rgba(241,70,104,1);
+
+--bg:#f5f6fa;
+--white:white;
+--text:#363636;
+
+--shadow:
+0px 5px 15px rgba(0,0,0,.1);
+
+--radius:12px;
+
+--transition:.3s;
+
+}
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+
+font-family:Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+
+}
+
+nav{
+    background:var(--white);
+    padding:20px;
+    text-align:center;
+    box-shadow:var(--shadow);
+}
+
+.logo{
+    width:150px;
+    max-width:100%;
+    height:auto;
+}
+
+
+nav h1{
+
+font-size:2.5rem;
+
+}
+
+
+.header{
+
+padding:40px;
+max-width:1000px;
+margin:auto;
+
+}
+
+.green{
+
+background:var(--success);
+
+}
+
+/*=========================
+HEADER HERO
+=========================*/
+
+.wrapper{
+
+width:90%;
+margin:auto;
+
+}
+
+.hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:40px;
+
+min-height:70vh;
+
+}
+
+.hero-text{
+
+flex:1;
+
+animation:leftAnimation 1s ease;
+
+}
+
+.hero-text h1{
+
+font-size:3rem;
+
+margin-bottom:25px;
+
+}
+
+.hero-text p{
+
+line-height:1.8;
+
+font-size:1.1rem;
+
+}
+
+
+.hero-banner{
+
+flex:1;
+
+display:flex;
+
+justify-content:center;
+
+animation:rightAnimation 1.5s ease;
+
+}
+
+
+.hero-banner img{
+
+width:100%;
+max-width:450px;
+
+}
+
+
+/*=========================
+ANIMATIONS
+=========================*/
+
+@keyframes leftAnimation{
+
+from{
+
+opacity:0;
+transform:translateX(-50px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateX(0);
+
+}
+
+}
+
+
+@keyframes rightAnimation{
+
+from{
+
+opacity:0;
+transform:translateX(50px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateX(0);
+
+}
+
+}
+
+
+/*=========================
+RESPONSIVE
+=========================*/
+
+@media(max-width:768px){
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+}
+
+.hero-text h1{
+
+font-size:2rem;
+
+}
+
+.hero-banner img{
+
+max-width:250px;
+
+}
+
+.header{
+
+padding:20px;
+
+}
+
+nav h1{
+
+font-size:2rem;
+
+}
+
+#viewer{
+
+width:95%;
+height:90%;
+
+}
+
+}
+
+
+        </style>
+
     </head>
 
     <body>
@@ -59,7 +306,6 @@
             <img
                 src="/image/logo-3.webp"
                 alt="Logo Study"
-                loading="lazy"
                 class="logo">
         </nav>
 
@@ -87,8 +333,7 @@
                     <div class="hero-banner">
                         <img
                         src="/image/logo-2.webp"
-                        alt="Study Logo"
-                        loading="lazy">
+                        alt="Study Logo">
                     </div>
                 </div>
             </div>
@@ -136,7 +381,8 @@
                     <br>
                     <a
                     href="mailto:bysocialname@gmail.com"
-                    class="button red">
+                    class="button red"
+                    target="_blank">
                     E-mail
                     </a>
                     <a
@@ -167,6 +413,6 @@
             </div>
         </div>
 
-        <script sync src="package.js"></script>
+        <script async src="package.js"></script>
     </body>
 </html>
