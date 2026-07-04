@@ -117,6 +117,18 @@ background:var(--danger);
 
 }
 
+.purple{
+
+background:var(--murder);
+
+}
+
+.orange{
+
+background:var(--agrume);
+color:black;
+
+}
 
 
 footer{

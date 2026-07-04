@@ -169,6 +169,162 @@ raw:
 color:"blue"
 },
 
+{
+title:"Exercice 15 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo15",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo15/Exo15.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 16 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo16",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo16/Exo16.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 17 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo17",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo17/Exo17.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 18 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo18",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo18/Exo18.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 19 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo19",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo19/Exo19.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 20 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo20",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo20/Exo20.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 21 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo21",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo21/Exo21.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 22 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo22",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo22/Exo22.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 23 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo23",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo23/Exo23.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 24 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo24",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo24/Exo24.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 25 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo25",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo25/Exo25.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 26 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo26",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo26/Exo26.md",
+
+color:"blue"
+},
+
+{
+title:"Exercice 27 (Langage C)",
+
+github:
+"https://github.com/bysocialname/Study/tree/main/C/Exo27",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo27/Exo27.md",
+
+color:"blue"
+},
+
 
 {
 title:"Page Personnelle",
@@ -336,6 +492,150 @@ raw:
 "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo14/Exo14.md",
 
 color:"yellow"
+},
+
+{
+title:"Préparation EXAMEN I",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo15",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo15/Exo15.md",
+
+color:"yellow"
+},
+
+{
+title:"Préparation EXAMEN II",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo16",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo16/Exo16.md",
+
+color:"yellow"
+},
+
+{
+title:"Préparation EXAMEN III",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo17",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo17/Exo17.md",
+
+color:"yellow"
+},
+
+{
+title:"Python Socket",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Reseau/PythonSocket",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Reseau/PythonSocket/Socket.md",
+
+color:"purple"
+},
+
+{
+title:"Maison Intelligent IoT (Cisco)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Reseau/PacketTracerCisco",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Reseau/PacketTracerCisco/IoT.md",
+
+color:"purple"
+},
+
+{
+title:"Exercice 1 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo1.md",
+
+color:"orange"
+},
+
+{
+title:"Exercice 2 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo2.md",
+
+color:"orange"
+},
+
+{
+title:"Exercice 3 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo3.md",
+
+color:"orange"
+},
+
+{
+title:"Exercice 4 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo4.md",
+
+color:"orange"
+},
+
+{
+title:"Exercice 5 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD2",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo1.md",
+
+color:"orange"
+},
+
+{
+title:"Exercice 6 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD2",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD2/Exo2.md",
+
+color:"orange"
+},
+
+{
+title:"Exercice 7 (Linux)",
+
+github:
+"https://github.com/bysocialname/Study/blob/main/Linux/TD2",
+
+raw:
+"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD2/Exo3.md",
+
+color:"orange"
 },
 
 {
