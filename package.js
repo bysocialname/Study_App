@@ -1,721 +1,709 @@
 const exercises = [
 
-{
-title:"Exercice 1 (Langage C)",
+    {
+        title: "Exercice 1 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo1",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo1",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo1/Exo1.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo1/Exo1.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 2 (Langage C)",
+    {
+        title: "Exercice 2 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo2",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo2",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo2/Exo2.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo2/Exo2.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 3 (Langage C)",
+    {
+        title: "Exercice 3 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo3",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo3",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo3/Exo3.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo3/Exo3.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 4 (Langage C)",
+    {
+        title: "Exercice 4 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo4",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo4",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo4/Exo4.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo4/Exo4.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 5 (Langage C)",
+    {
+        title: "Exercice 5 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo5",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo5",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo5/Exo5.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo5/Exo5.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 6 (Langage C)",
+    {
+        title: "Exercice 6 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo6",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo6",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo6/Exo6.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo6/Exo6.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 7 (Langage C)",
+    {
+        title: "Exercice 7 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo7",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo7",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo7/Exo7.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo7/Exo7.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 8 (Langage C)",
+    {
+        title: "Exercice 8 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo28",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo28",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo8/Exo8.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo8/Exo8.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 9 (Langage C)",
+    {
+        title: "Exercice 9 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo9",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo9",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo9/Exo9.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo9/Exo9.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 10 (Langage C)",
+    {
+        title: "Exercice 10 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo10",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo10",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo10/Exo10.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo10/Exo10.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 11 (Langage C)",
+    {
+        title: "Exercice 11 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo11",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo11",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo11/Exo11.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo11/Exo11.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 12 (Langage C)",
+    {
+        title: "Exercice 12 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo12",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo12",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo12/Exo12.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo12/Exo12.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 13 (Langage C)",
+    {
+        title: "Exercice 13 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo13",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo13",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo13/Exo13.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo13/Exo13.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
 
-{
-title:"Exercice 14 (Langage C)",
+    {
+        title: "Exercice 14 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo14",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo14",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo14/Exo14.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo14/Exo14.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 15 (Langage C)",
+    {
+        title: "Exercice 15 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo15",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo15",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo15/Exo15.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo15/Exo15.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 16 (Langage C)",
+    {
+        title: "Exercice 16 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo16",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo16",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo16/Exo16.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo16/Exo16.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 17 (Langage C)",
+    {
+        title: "Exercice 17 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo17",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo17",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo17/Exo17.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo17/Exo17.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 18 (Langage C)",
+    {
+        title: "Exercice 18 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo18",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo18",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo18/Exo18.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo18/Exo18.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 19 (Langage C)",
+    {
+        title: "Exercice 19 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo19",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo19",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo19/Exo19.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo19/Exo19.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 20 (Langage C)",
+    {
+        title: "Exercice 20 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo20",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo20",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo20/Exo20.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo20/Exo20.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 21 (Langage C)",
+    {
+        title: "Exercice 21 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo21",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo21",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo21/Exo21.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo21/Exo21.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 22 (Langage C)",
+    {
+        title: "Exercice 22 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo22",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo22",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo22/Exo22.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo22/Exo22.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 23 (Langage C)",
+    {
+        title: "Exercice 23 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo23",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo23",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo23/Exo23.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo23/Exo23.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 24 (Langage C)",
+    {
+        title: "Exercice 24 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo24",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo24",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo24/Exo24.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo24/Exo24.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 25 (Langage C)",
+    {
+        title: "Exercice 25 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo25",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo25",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo25/Exo25.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo25/Exo25.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 26 (Langage C)",
+    {
+        title: "Exercice 26 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo26",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo26",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo26/Exo26.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo26/Exo26.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
-{
-title:"Exercice 27 (Langage C)",
+    {
+        title: "Exercice 27 (Langage C)",
 
-github:
-"https://github.com/bysocialname/Study/tree/main/C/Exo27",
+        github:
+            "https://github.com/bysocialname/Study/tree/main/C/Exo27",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo27/Exo27.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/C/Exo27/Exo27.md",
 
-color:"blue"
-},
+        color: "blue"
+    },
 
 
-{
-title:"Page Personnelle",
+    {
+        title: "Page Personnelle",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo1",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo1",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo1/Exo1.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo1/Exo1.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Calculatrice Simple",
+    {
+        title: "Calculatrice Simple",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo2",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo2",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo2/Exo2.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo2/Exo2.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Débogage",
+    {
+        title: "Débogage",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo3",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo3",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo3/Exo3.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo3/Exo3.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Calculateur d'IMC",
+    {
+        title: "Calculateur d'IMC",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo4",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo4",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo4/Exo4.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo4/Exo4.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Jeu de devinette",
+    {
+        title: "Jeu de devinette",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo5",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo5",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo5/Exo5.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo5/Exo5.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Manipulation de tableau",
+    {
+        title: "Manipulation de tableau",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo6",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo6",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo6/Exo6.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo6/Exo6.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Suite de Fibonacci",
+    {
+        title: "Suite de Fibonacci",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo7",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo7",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo7/Exo7.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo7/Exo7.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Gestion de bibliothèque",
+    {
+        title: "Gestion de bibliothèque",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo8",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo8",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo8/Exo8.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo8/Exo8.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Statistique sur un tableau",
+    {
+        title: "Statistique sur un tableau",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo9",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo9",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo9/Exo9.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo9/Exo9.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Manipulation de Donnés",
+    {
+        title: "Manipulation de Donnés",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo10",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo10",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo10/Exo10.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo10/Exo10.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Fusion de tableau",
+    {
+        title: "Fusion de tableau",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo11",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo11",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo11/Exo11.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo11/Exo11.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Adressage reseau",
+    {
+        title: "Adressage reseau",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo12",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo12",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo12/Exo12.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo12/Exo12.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Appartenance Machine",
+    {
+        title: "Appartenance Machine",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo13",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo13",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo13/Exo13.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo13/Exo13.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Vente aux enchères",
+    {
+        title: "Vente aux enchères",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo14",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo14",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo14/Exo14.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo14/Exo14.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Préparation EXAMEN I",
+    {
+        title: "Préparation EXAMEN I",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo15",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo15",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo15/Exo15.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo15/Exo15.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Préparation EXAMEN II",
+    {
+        title: "Préparation EXAMEN II",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo16",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo16",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo16/Exo16.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo16/Exo16.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Préparation EXAMEN III",
+    {
+        title: "Préparation EXAMEN III",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/JavaScript/Exo17",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/JavaScript/Exo17",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo17/Exo17.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/JavaScript/Exo17/Exo17.md",
 
-color:"yellow"
-},
+        color: "yellow"
+    },
 
-{
-title:"Python Socket",
+    {
+        title: "Python Socket",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Reseau/PythonSocket",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Reseau/PythonSocket",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Reseau/PythonSocket/Socket.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Reseau/PythonSocket/Socket.md",
 
-color:"purple"
-},
+        color: "purple"
+    },
 
-{
-title:"Maison Intelligent IoT (Cisco)",
+    {
+        title: "Maison Intelligent IoT (Cisco)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Reseau/PacketTracerCisco",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Reseau/PacketTracerCisco",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Reseau/PacketTracerCisco/IoT.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Reseau/PacketTracerCisco/IoT.md",
 
-color:"purple"
-},
+        color: "purple"
+    },
 
-{
-title:"Exercice 1 (Linux)",
+    {
+        title: "Exercice 1 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD1",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo1.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo1.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"Exercice 2 (Linux)",
+    {
+        title: "Exercice 2 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD1",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo2.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo2.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"Exercice 3 (Linux)",
+    {
+        title: "Exercice 3 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD1",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo3.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo3.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"Exercice 4 (Linux)",
+    {
+        title: "Exercice 4 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD1",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD1",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo4.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo4.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"Exercice 5 (Linux)",
+    {
+        title: "Exercice 5 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD2",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD2",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo1.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD1/Exo1.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"Exercice 6 (Linux)",
+    {
+        title: "Exercice 6 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD2",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD2",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD2/Exo2.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD2/Exo2.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"Exercice 7 (Linux)",
+    {
+        title: "Exercice 7 (Linux)",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/Linux/TD2",
+        github:
+            "https://github.com/bysocialname/Study/blob/main/Linux/TD2",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD2/Exo3.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/Linux/TD2/Exo3.md",
 
-color:"orange"
-},
+        color: "orange"
+    },
 
-{
-title:"On Balance Volume",
+    {
+        title: "Study - A propos",
 
-github:
-"https://github.com/bysocialname/Study/blob/main/MQL5/OBV",
+        github:
+            "https://github.com/bysocialname/Study/blob/main",
 
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/MQL5/OBV/obv.md",
+        raw:
+            "https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/README.md",
 
-color:"green"
-},
-
-{
-title:"Study - A propos",
-
-github:
-"https://github.com/bysocialname/Study/blob/main",
-
-raw:
-"https://raw.githubusercontent.com/bysocialname/Study/refs/heads/main/README.md",
-
-color:"red"
-}
+        color: "red"
+    }
 
 ];
 
 
 
-const container=
+const container =
+    document.getElementById(
+        "exerciseContainer"
+    );
+
+
+const overlay =
+    document.getElementById(
+        "viewerOverlay"
+    );
+
+
+const content =
+    document.getElementById(
+        "viewerContent"
+    );
+
+
+const githubLink =
+    document.getElementById(
+        "githubLink"
+    );
+
+
+
 document.getElementById(
-"exerciseContainer"
-);
-
-
-const overlay=
-document.getElementById(
-"viewerOverlay"
-);
-
-
-const content=
-document.getElementById(
-"viewerContent"
-);
-
-
-const githubLink=
-document.getElementById(
-"githubLink"
-);
-
-
-
-document.getElementById(
-"closeViewer"
+    "closeViewer"
 )
 
-.onclick=()=>{
+    .onclick = () => {
 
-overlay.style.display=
-"none";
+        overlay.style.display =
+            "none";
 
-};
-
-
-
-exercises.forEach(item=>{
-
-const card=
-document.createElement(
-"div"
-);
-
-card.className=
-"card";
+    };
 
 
-card.innerHTML=`
+
+exercises.forEach(item => {
+
+    const card =
+        document.createElement(
+            "div"
+        );
+
+    card.className =
+        "card";
+
+
+    card.innerHTML = `
 
 <strong>
 
@@ -733,44 +721,44 @@ Découvrir
 `;
 
 
-card
-.querySelector(
-"button"
-)
+    card
+        .querySelector(
+            "button"
+        )
 
-.onclick=
-async()=>{
+        .onclick =
+        async () => {
 
-overlay.style.display=
-"flex";
+            overlay.style.display =
+                "flex";
 
-content.innerHTML=
-"Chargement...";
-
-
-githubLink.href=
-item.github;
+            content.innerHTML =
+                "Chargement...";
 
 
-try{
-
-const response=
-await fetch(
-item.raw
-);
-
-const data=
-await response.text();
+            githubLink.href =
+                item.github;
 
 
-content.textContent=
-data;
+            try {
+
+                const response =
+                    await fetch(
+                        item.raw
+                    );
+
+                const data =
+                    await response.text();
 
 
-}
-catch{
+                content.textContent =
+                    data;
 
-content.innerHTML=`
+
+            }
+            catch {
+
+                content.innerHTML = `
 
 <h2>
 
@@ -780,13 +768,13 @@ Erreur de chargement
 
 `;
 
-}
+            }
 
-};
+        };
 
 
-container.appendChild(
-card
-);
+    container.appendChild(
+        card
+    );
 
 });
